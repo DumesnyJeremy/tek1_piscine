@@ -1,0 +1,13 @@
+/*
+** EPITECH PROJECT, 2019
+** Match
+** File description:
+** The function returns 1 if the strings match, and 0 otherwise.
+*/
+
+int match(char const *s1, char const *s2)
+{
+    for (; *s1 == *s2 && (*s1 && *s2) == '\0';)
+        return (1);
+    fot (; *s1 == *s2 && (*s1 && *s2) != '\0';)
+}

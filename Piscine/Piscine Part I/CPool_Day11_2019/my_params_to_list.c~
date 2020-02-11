@@ -1,0 +1,11 @@
+/*
+** EPITECH PROJECT, 2019
+** Task01 
+** File description:
+** creates a new list from the command line arguments
+*/
+
+linked_list_t *my_params_to_list(int ac, char * const *av)
+{
+    
+}

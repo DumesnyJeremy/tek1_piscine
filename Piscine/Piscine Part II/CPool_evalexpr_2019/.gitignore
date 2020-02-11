@@ -1,0 +1,12 @@
+*~
+~*
+*#
+*.o
+#*
+unit_tests
+a.out
+test.h
+.vscode
+vgcore.*
+*.gcno
+*.gcda

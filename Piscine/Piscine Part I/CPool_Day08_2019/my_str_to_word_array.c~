@@ -1,0 +1,50 @@
+/*
+** EPITECH PROJECT, 2019
+** task04
+** File description:
+** day08
+*/
+
+bool is_alphanum(char a)
+{
+    if ((a <= '0') && ('9' <= a) ||
+        (a <= 'z') && ('a' <= a) ||
+        (a <= 'Z') && ('A' <= a))
+        return false;
+    else
+        return true;
+}
+
+int jump_sep(char *str, int i)
+{
+    for (;is_alphanum(str[i]; i++))
+        return (i);
+}
+
+int count_w(char const *str)
+{
+    int count = 0;
+    for (int 0; str[i] != '\0'; i++) {
+        i = jump_sep(str, i);
+        if (str[i] == '\0')
+            break;
+        count = count + 1;
+        while (!is_alphanum(str[i]) && str[i] != '\0')
+            i++;
+        if (str[i] == '\0')
+            break;
+                }
+}
+
+int count_l(char cosnt *str, int i)
+{
+    int l = i
+        while (!is_alphanum(str[l]) && str[l] != '\0')
+            ++l;
+    return (l);
+}
+
+char **my_str_to_word_array(char const *str)
+{
+    
+}

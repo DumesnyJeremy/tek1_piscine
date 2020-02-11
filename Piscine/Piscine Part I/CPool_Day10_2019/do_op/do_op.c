@@ -1,0 +1,18 @@
+/*
+** EPITECH PROJECT, 2019
+** task02
+** File description:
+** Write a program called do-op that computes an operation.
+*/
+
+int do_op(char const argv)
+{
+    for (int i = 0; argv[i] != '\0'; i++)
+    if (argv[i] == '+')
+        my_getnbr(argv[i]) + my_getnbr(argv[i + 2]);
+}
+
+int main(void)
+{
+    printf("%d\n", do_op());
+}
